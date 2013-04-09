@@ -63,3 +63,7 @@ Class L<Log::Any::Adapter::Base>
 =item L<Log::Any::Adapter>
 
 =back
+
+=head1 ACKNOWLEDGEMENTS
+
+Development sponsored by L<HostGator.com|http://hostgator.com>

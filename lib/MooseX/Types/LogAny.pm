@@ -64,6 +64,6 @@ Class L<Log::Any::Adapter::Base>
 
 =back
 
-=head1 ACKNOWLEDGEMENTS
+=head1 ACKNOWLEDGMENTS
 
 Development sponsored by L<HostGator.com|http://hostgator.com>

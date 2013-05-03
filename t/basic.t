@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use Test::More;
-use Class::Load 'load_class';
+use Class::Load 0.20 'load_class';
 use Test::Fatal;
 
 {

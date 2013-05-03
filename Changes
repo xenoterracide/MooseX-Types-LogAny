@@ -2,5 +2,8 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+0.001001  2013-05-02
+	- correct dependency version of Perl and Class::Load
+
 0.001000  2013-04-09
 	- initial release

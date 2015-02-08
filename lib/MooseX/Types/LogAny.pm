@@ -9,11 +9,13 @@ use MooseX::Types -declare => [qw(
 	LogAny
 	LogAnyBase
 	LogAnyNull
+	LogAnyProxy
 )];
 
-class_type LogAnyBase, { class => 'Log::Any::Adapter::Base' };
-class_type LogAnyNull, { class => 'Log::Any::Adapter::Null' };
-subtype    LogAny, as LogAnyBase|LogAnyNull;
+class_type LogAnyBase,  { class => 'Log::Any::Adapter::Base' };
+class_type LogAnyNull,  { class => 'Log::Any::Adapter::Null' };
+class_type LogAnyProxy, { class => 'Log::Any::Proxy' };
+subtype    LogAny, as LogAnyBase|LogAnyNull|LogAnyProxy;
 
 1;
 

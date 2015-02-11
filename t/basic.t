@@ -15,7 +15,7 @@ use Test::Fatal;
 	);
 }
 
-my $t = new_ok( use_module('Test') );
+my $t = new_ok( 'Test' );
 
 use_module('Log::Any::Adapter')->set('Null');
 

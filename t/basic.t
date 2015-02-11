@@ -5,7 +5,7 @@ use Module::Runtime 'use_module';
 use Test::Fatal;
 
 {
-	package Test;
+	package MyTest;
 	use Moose;
 	use MooseX::Types::LogAny qw( LogAny );
 
@@ -15,7 +15,7 @@ use Test::Fatal;
 	);
 }
 
-my $t = new_ok( 'Test' );
+my $t = new_ok( 'MyTest' );
 
 use_module('Log::Any::Adapter')->set('Null');
 
